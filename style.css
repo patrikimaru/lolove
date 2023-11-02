@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 36px;
+  color: #FF69B4;
+}
+
+#word-display {
+  font-size: 32px;
+  margin-top: 20px;
+  color: #FF69B4;
+}
+
+#alphabet-buttons {
+  display: flex;
+  max-width: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 18px;
+  background-color: #FF69B4;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.5;
+}
+
+#user-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#remaining-lives, #hints {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #FF69B4;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  gap: 20px;
+}
+
+#restart-button {
+  font-size: 18px;
+  background-color: #FF69B4;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+#hint-button {
+  font-size: 18px;
+  background-color: #FF69B4;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
